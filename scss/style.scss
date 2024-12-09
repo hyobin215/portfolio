@@ -54,16 +54,17 @@ body{background:url("../images/background.png")no-repeat;
         background-position:10% 20%;
         h2{font-size:35px; margin-top:79px; 
             font-family: 'S-CoreDream-5Medium';
-            display:flex; justify-content: flex-end;    
+            display:flex; //justify-content: flex-end;    
         }
         h1{font-size:80px; display:flex; justify-content: center; 
             align-items:center;  text-align: center;
-            position: relative; top:0;
+            position: relative; top:0; 
             //312px;
         }
-        p{font-size:35px; align-self: flex-start; /* 왼쪽 정렬 */
+        p{font-size:35px; 
+            align-self: flex-end; /* 왼쪽 정렬 */
             font-family: 'S-CoreDream-5Medium';
-            margin-bottom: 79px; /* 하단 여백 */ }
+            margin-bottom: 95px; /* 하단 여백 */ }
         
     }//end:.title
 
@@ -72,19 +73,19 @@ body{background:url("../images/background.png")no-repeat;
 #main2{ width:100%;  position:relative; height:100%;
     font-family:'S-CoreDream-3Light';
     .profile{ 
-        margin-left:138px; font-size: 25px;
-        .p_icon{margin-top:186px;}
-        ul{margin-top:110px;}
+        margin-left:138px; font-size: 23px;
+        .p_icon{margin-top:156px;}
+        ul{margin-top:110px; margin-bottom:80px;}
         li{margin-bottom:31px;}
         li:last-child{margin-bottom:0;}
     }//end:.profile
 
-    .education{ font-size:25px; position: absolute;
+    .education{ font-size:23px; position: absolute;
         top:10px; right:158px; margin: 0; /* 기존 margin 제거 */
         width: auto; /* 필요한 너비만 사용 */
         .e_title {
             font-family: 'S-CoreDream-5Medium';
-            font-size: 28px; margin-bottom: 30px;
+            font-size: 25px; margin-bottom: 30px;
         }
         li{display:flex;
             h4{margin-right:32px; margin-bottom: 31px;}
@@ -92,10 +93,10 @@ body{background:url("../images/background.png")no-repeat;
         div{display:flex;}
     }//end:.education
 
-    .certificate{ font-size:25px; position:absolute;
-        top:208px; right:509px; margin:0; width:auto;
+    .certificate{ font-size:23px; position:absolute;
+        top:208px; right:481px; margin:0; width:auto;
         .c_title{
-            font-family: 'S-CoreDream-5Medium'; font-size:28px;
+            font-family: 'S-CoreDream-5Medium'; font-size:25px;
             margin-bottom: 31px;
         }
         li{display:flex;
@@ -107,8 +108,8 @@ body{background:url("../images/background.png")no-repeat;
     }//end:.certificate
 
     .skill{ position:absolute;
-        bottom:11px; right:537px; margin:0; width:auto;
-        .s_title{font-family: 'S-CoreDream-5Medium';font-size:28px;
+        bottom:11px; right:481px; margin:0; width:auto;
+        .s_title{font-family: 'S-CoreDream-5Medium';font-size:25px;
             margin-bottom:31px;}
         ul{display:flex;}
         li{margin-right:12px;}
@@ -216,7 +217,7 @@ body{background:url("../images/background.png")no-repeat;
         .button:hover{background:#F0F0F0;}
         .box2text{font-size: 20px; line-height:1.8;
             display:flex; justify-content: flex-end;
-            margin-right:58px; margin-top:59px;
+            margin-right:124px; margin-top:92px;
         }
         .box2tools{ font-size:20px; //display:flex; align-items:flex-end;
            // flex-direction: column;
@@ -224,7 +225,7 @@ body{background:url("../images/background.png")no-repeat;
                 display: flex;
                 flex-direction: column; /* h4와 ul을 세로로 배치 */
                 align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-                margin-top:65px; margin-left:640px;
+                margin-top:126px; margin-left:656px;
             }
             h4{font-size:20px;font-family: 'S-CoreDream-5Medium';
                 margin-bottom:18px;}
@@ -237,7 +238,7 @@ body{background:url("../images/background.png")no-repeat;
                 display: flex;
                 flex-direction: column; /* h4와 ul을 세로로 배치 */
                 align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-                margin-top:65px; margin-left:640px;
+                margin-top:112px; margin-left:656px;
             }
             h4{font-size:20px;font-family: 'S-CoreDream-5Medium';
                 margin-bottom:18px;}
@@ -250,7 +251,7 @@ body{background:url("../images/background.png")no-repeat;
                 display: flex;
                 flex-direction: column; /* h4와 ul을 세로로 배치 */
                 align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-                margin-top:-58px; margin-left:979px;
+                margin-top:-62px; margin-left:979px;
             }
             h4{font-size:20px;font-family: 'S-CoreDream-5Medium';
                 margin-bottom:15px;}
@@ -293,7 +294,7 @@ body{background:url("../images/background.png")no-repeat;
         .button:hover{background:#F0F0F0;}
         .box3text{font-size: 20px; line-height:1.8;
             display:flex; justify-content: flex-end;
-            margin-right:58px; margin-top:59px;
+            margin-right:58px; margin-top:89px;
         }
         .box3tools{ font-size:20px; //display:flex; align-items:flex-end;
            // flex-direction: column;
@@ -301,10 +302,10 @@ body{background:url("../images/background.png")no-repeat;
                 display: flex;
                 flex-direction: column; /* h4와 ul을 세로로 배치 */
                 align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-                margin-top:65px; margin-left:640px;
+                margin-top:65px; margin-left:656px;
             }
             h4{font-size:20px;font-family: 'S-CoreDream-5Medium';
-                margin-bottom:13px;}
+                margin-bottom:18px;}
             ul{display:flex;}
             li{margin-right:15px;}
         }
@@ -314,10 +315,10 @@ body{background:url("../images/background.png")no-repeat;
                 display: flex;
                 flex-direction: column; /* h4와 ul을 세로로 배치 */
                 align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-                margin-top:65px; margin-left:640px;
+                margin-top:104px; margin-left:656px;
             }
             h4{font-size:20px;font-family: 'S-CoreDream-5Medium';
-                margin-bottom:13px;}
+                margin-bottom:18px;}
             ul{display:flex;}
             li{margin-right:15px;}
         }
@@ -327,10 +328,10 @@ body{background:url("../images/background.png")no-repeat;
                 display: flex;
                 flex-direction: column; /* h4와 ul을 세로로 배치 */
                 align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-                margin-top:65px; margin-left:640px;
+                margin-top:-59px; margin-left:929px;
             }
             h4{font-size:20px;font-family: 'S-CoreDream-5Medium';
-                margin-bottom:13px;}
+                margin-bottom:15px;}
             ul{display:flex; align-items: center;}
             li{align-items: center; display:flex;
                 .box3circle1{background:#869F30; width:26px; height:26px;

@@ -67,7 +67,6 @@ body a {
   margin-top: 79px;
   font-family: "S-CoreDream-5Medium";
   display: flex;
-  justify-content: flex-end;
 }
 #main1 .title h1 {
   font-size: 80px;
@@ -80,9 +79,9 @@ body a {
 }
 #main1 .title p {
   font-size: 35px;
-  align-self: flex-start; /* 왼쪽 정렬 */
+  align-self: flex-end; /* 왼쪽 정렬 */
   font-family: "S-CoreDream-5Medium";
-  margin-bottom: 79px; /* 하단 여백 */
+  margin-bottom: 95px; /* 하단 여백 */
 }
 
 #main2 {
@@ -93,13 +92,14 @@ body a {
 }
 #main2 .profile {
   margin-left: 138px;
-  font-size: 25px;
+  font-size: 23px;
 }
 #main2 .profile .p_icon {
-  margin-top: 186px;
+  margin-top: 156px;
 }
 #main2 .profile ul {
   margin-top: 110px;
+  margin-bottom: 80px;
 }
 #main2 .profile li {
   margin-bottom: 31px;
@@ -108,7 +108,7 @@ body a {
   margin-bottom: 0;
 }
 #main2 .education {
-  font-size: 25px;
+  font-size: 23px;
   position: absolute;
   top: 10px;
   right: 158px;
@@ -117,7 +117,7 @@ body a {
 }
 #main2 .education .e_title {
   font-family: "S-CoreDream-5Medium";
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 30px;
 }
 #main2 .education li {
@@ -131,16 +131,16 @@ body a {
   display: flex;
 }
 #main2 .certificate {
-  font-size: 25px;
+  font-size: 23px;
   position: absolute;
   top: 208px;
-  right: 509px;
+  right: 481px;
   margin: 0;
   width: auto;
 }
 #main2 .certificate .c_title {
   font-family: "S-CoreDream-5Medium";
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 31px;
 }
 #main2 .certificate li {
@@ -156,13 +156,13 @@ body a {
 #main2 .skill {
   position: absolute;
   bottom: 11px;
-  right: 537px;
+  right: 481px;
   margin: 0;
   width: auto;
 }
 #main2 .skill .s_title {
   font-family: "S-CoreDream-5Medium";
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 31px;
 }
 #main2 .skill ul {
@@ -365,8 +365,8 @@ body a {
   line-height: 1.8;
   display: flex;
   justify-content: flex-end;
-  margin-right: 58px;
-  margin-top: 59px;
+  margin-right: 124px;
+  margin-top: 92px;
 }
 #main4 .box2 .box2tools {
   font-size: 20px;
@@ -375,8 +375,8 @@ body a {
   display: flex;
   flex-direction: column; /* h4와 ul을 세로로 배치 */
   align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-  margin-top: 65px;
-  margin-left: 640px;
+  margin-top: 126px;
+  margin-left: 656px;
 }
 #main4 .box2 .box2tools h4 {
   font-size: 20px;
@@ -396,8 +396,8 @@ body a {
   display: flex;
   flex-direction: column; /* h4와 ul을 세로로 배치 */
   align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-  margin-top: 65px;
-  margin-left: 640px;
+  margin-top: 112px;
+  margin-left: 656px;
 }
 #main4 .box2 .box2font h4 {
   font-size: 20px;
@@ -417,7 +417,7 @@ body a {
   display: flex;
   flex-direction: column; /* h4와 ul을 세로로 배치 */
   align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-  margin-top: -58px;
+  margin-top: -62px;
   margin-left: 979px;
 }
 #main4 .box2 .box2color h4 {
@@ -511,7 +511,7 @@ body a {
   display: flex;
   justify-content: flex-end;
   margin-right: 58px;
-  margin-top: 59px;
+  margin-top: 89px;
 }
 #main5 .box3 .box3tools {
   font-size: 20px;
@@ -521,12 +521,12 @@ body a {
   flex-direction: column; /* h4와 ul을 세로로 배치 */
   align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
   margin-top: 65px;
-  margin-left: 640px;
+  margin-left: 656px;
 }
 #main5 .box3 .box3tools h4 {
   font-size: 20px;
   font-family: "S-CoreDream-5Medium";
-  margin-bottom: 13px;
+  margin-bottom: 18px;
 }
 #main5 .box3 .box3tools ul {
   display: flex;
@@ -541,13 +541,13 @@ body a {
   display: flex;
   flex-direction: column; /* h4와 ul을 세로로 배치 */
   align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-  margin-top: 65px;
-  margin-left: 640px;
+  margin-top: 104px;
+  margin-left: 656px;
 }
 #main5 .box3 .box3font h4 {
   font-size: 20px;
   font-family: "S-CoreDream-5Medium";
-  margin-bottom: 13px;
+  margin-bottom: 18px;
 }
 #main5 .box3 .box3font ul {
   display: flex;
@@ -562,13 +562,13 @@ body a {
   display: flex;
   flex-direction: column; /* h4와 ul을 세로로 배치 */
   align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
-  margin-top: 65px;
-  margin-left: 640px;
+  margin-top: -59px;
+  margin-left: 929px;
 }
 #main5 .box3 .box3color h4 {
   font-size: 20px;
   font-family: "S-CoreDream-5Medium";
-  margin-bottom: 13px;
+  margin-bottom: 15px;
 }
 #main5 .box3 .box3color ul {
   display: flex;
