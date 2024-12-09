@@ -1,0 +1,603 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "TTBookendBatangR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-2@1.0/TTBookendBatangR.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "S-CoreDream-5Medium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LOTTERIADDAG";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../images/background.png") no-repeat;
+  background-size: cover; /* 화면 전체를 채우도록 조정 */
+  background-attachment: fixed; /* 이미지 고정 */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body .inner1 {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+}
+body a {
+  text-decoration: none;
+}
+
+#main1 {
+  font-family: "LOTTERIADDAG", sans-serif;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#main1 .title {
+  display: flex;
+  flex-direction: column; /* 세로 방향 정렬 */
+  justify-content: space-between; /* 요소 간의 공간 분배 */
+  position: relative; /* p의 기준 */
+  height: 100%; /* 부모의 높이를 채움 */
+  background-position: 10% 20%;
+}
+#main1 .title h2 {
+  font-size: 35px;
+  margin-top: 79px;
+  font-family: "S-CoreDream-5Medium";
+  display: flex;
+  justify-content: flex-end;
+}
+#main1 .title h1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 0;
+}
+#main1 .title p {
+  font-size: 35px;
+  align-self: flex-start; /* 왼쪽 정렬 */
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 79px; /* 하단 여백 */
+}
+
+#main2 {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  font-family: "S-CoreDream-3Light";
+}
+#main2 .profile {
+  margin-left: 138px;
+  font-size: 25px;
+}
+#main2 .profile .p_icon {
+  margin-top: 186px;
+}
+#main2 .profile ul {
+  margin-top: 110px;
+}
+#main2 .profile li {
+  margin-bottom: 31px;
+}
+#main2 .profile li:last-child {
+  margin-bottom: 0;
+}
+#main2 .education {
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 158px;
+  margin: 0; /* 기존 margin 제거 */
+  width: auto; /* 필요한 너비만 사용 */
+}
+#main2 .education .e_title {
+  font-family: "S-CoreDream-5Medium";
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+#main2 .education li {
+  display: flex;
+}
+#main2 .education li h4 {
+  margin-right: 32px;
+  margin-bottom: 31px;
+}
+#main2 .education div {
+  display: flex;
+}
+#main2 .certificate {
+  font-size: 25px;
+  position: absolute;
+  top: 208px;
+  right: 509px;
+  margin: 0;
+  width: auto;
+}
+#main2 .certificate .c_title {
+  font-family: "S-CoreDream-5Medium";
+  font-size: 28px;
+  margin-bottom: 31px;
+}
+#main2 .certificate li {
+  display: flex;
+}
+#main2 .certificate li h4 {
+  margin-right: 32px;
+  margin-bottom: 31px;
+}
+#main2 .certificate div {
+  display: flex;
+}
+#main2 .skill {
+  position: absolute;
+  bottom: 11px;
+  right: 537px;
+  margin: 0;
+  width: auto;
+}
+#main2 .skill .s_title {
+  font-family: "S-CoreDream-5Medium";
+  font-size: 28px;
+  margin-bottom: 31px;
+}
+#main2 .skill ul {
+  display: flex;
+}
+#main2 .skill li {
+  margin-right: 12px;
+}
+#main2 .skill li:last-child {
+  margin-right: 0;
+}
+
+#main3 {
+  font-family: "S-CoreDream-3Light";
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main3 .box1 {
+  width: 1640px;
+  height: 782px;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  background-image: url("../images/website4.png");
+  background-size: 60%; /* 이미지 크기 조정 */
+  background-position: -28% 850%; /* 이미지 중앙 정렬 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+}
+#main3 .box1 h3 {
+  font-size: 35px;
+  font-family: "S-CoreDream-5Medium";
+  margin-top: 78px;
+  margin-left: 91px;
+}
+#main3 .box1 .button {
+  background: #FEFFEF;
+  border-radius: 20px;
+  width: 174px;
+  height: 49px;
+  border: 1px solid #707070;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 90px;
+  align-items: center;
+  margin-left: 216px;
+  padding: 3px 7px;
+}
+#main3 .box1 .button a {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+#main3 .box1 .button:hover {
+  background: #F0F0F0;
+}
+#main3 .box1 .box1text {
+  font-size: 20px;
+  line-height: 1.8;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 58px;
+  margin-top: 94px;
+}
+#main3 .box1 .box1tools {
+  font-size: 20px;
+}
+#main3 .box1 .box1tools .box1tools_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: 90px;
+  margin-left: 649px;
+}
+#main3 .box1 .box1tools h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 18px;
+}
+#main3 .box1 .box1tools ul {
+  display: flex;
+}
+#main3 .box1 .box1tools li {
+  margin-right: 15px;
+}
+#main3 .box1 .box1font {
+  font-size: 20px;
+}
+#main3 .box1 .box1font .box1font_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: 104px;
+  margin-left: 651px;
+}
+#main3 .box1 .box1font h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 18px;
+}
+#main3 .box1 .box1font ul {
+  display: flex;
+}
+#main3 .box1 .box1font li {
+  margin-right: 15px;
+}
+#main3 .box1 .box1color {
+  font-size: 20px;
+}
+#main3 .box1 .box1color .box1color_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: -61px;
+  margin-left: 906px;
+}
+#main3 .box1 .box1color h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 15px;
+}
+#main3 .box1 .box1color ul {
+  display: flex;
+  align-items: center;
+}
+#main3 .box1 .box1color li {
+  align-items: center;
+  display: flex;
+}
+#main3 .box1 .box1color li .box1circle1 {
+  background: #175afe;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+#main3 .box1 .box1color li .box1circle2 {
+  background: #66a6ff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 18px;
+  margin-left: 28px;
+}
+
+#main4 {
+  font-family: "S-CoreDream-3Light";
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main4 .box2 {
+  width: 1640px;
+  height: 782px;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  background-image: url("../images/website2.png");
+  background-size: 60%; /* 이미지 크기 조정 */
+  background-position: -28% 850%; /* 이미지 중앙 정렬 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+}
+#main4 .box2 h3 {
+  font-size: 35px;
+  font-family: "S-CoreDream-5Medium";
+  margin-top: 78px;
+  margin-left: 91px;
+}
+#main4 .box2 .button {
+  background: #FEFFEF;
+  border-radius: 20px;
+  width: 174px;
+  height: 49px;
+  border: 1px solid #707070;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 90px;
+  align-items: center;
+  margin-left: 216px;
+  padding: 3px 7px;
+}
+#main4 .box2 .button a {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+#main4 .box2 .button:hover {
+  background: #F0F0F0;
+}
+#main4 .box2 .box2text {
+  font-size: 20px;
+  line-height: 1.8;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 58px;
+  margin-top: 59px;
+}
+#main4 .box2 .box2tools {
+  font-size: 20px;
+}
+#main4 .box2 .box2tools .box2tools_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: 65px;
+  margin-left: 640px;
+}
+#main4 .box2 .box2tools h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 18px;
+}
+#main4 .box2 .box2tools ul {
+  display: flex;
+}
+#main4 .box2 .box2tools li {
+  margin-right: 15px;
+}
+#main4 .box2 .box2font {
+  font-size: 20px;
+}
+#main4 .box2 .box2font .box2font_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: 65px;
+  margin-left: 640px;
+}
+#main4 .box2 .box2font h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 18px;
+}
+#main4 .box2 .box2font ul {
+  display: flex;
+}
+#main4 .box2 .box2font li {
+  margin-right: 15px;
+}
+#main4 .box2 .box2color {
+  font-size: 20px;
+}
+#main4 .box2 .box2color .box2color_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: -58px;
+  margin-left: 979px;
+}
+#main4 .box2 .box2color h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 15px;
+}
+#main4 .box2 .box2color ul {
+  display: flex;
+  align-items: center;
+}
+#main4 .box2 .box2color li {
+  align-items: center;
+  display: flex;
+}
+#main4 .box2 .box2color li .box2circle1 {
+  background: #008238;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+#main4 .box2 .box2color li .box2circle2 {
+  background: #7bb489;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 18px;
+  margin-left: 28px;
+}
+#main4 .box2 .box2color li .box2circle3 {
+  background: #7db896;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 18px;
+  margin-left: 28px;
+}
+
+#main5 {
+  font-family: "S-CoreDream-3Light";
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main5 .box3 {
+  width: 1640px;
+  height: 782px;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  background-image: url("../images/website3.png");
+  background-size: 60%; /* 이미지 크기 조정 */
+  background-position: -28% 850%; /* 이미지 중앙 정렬 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 방지 */
+}
+#main5 .box3 h3 {
+  font-size: 35px;
+  font-family: "S-CoreDream-5Medium";
+  margin-top: 78px;
+  margin-left: 91px;
+}
+#main5 .box3 .button {
+  background: #FEFFEF;
+  border-radius: 20px;
+  width: 174px;
+  height: 49px;
+  border: 1px solid #707070;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 90px;
+  align-items: center;
+  margin-left: 216px;
+  padding: 3px 7px;
+}
+#main5 .box3 .button a {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+#main5 .box3 .button:hover {
+  background: #F0F0F0;
+}
+#main5 .box3 .box3text {
+  font-size: 20px;
+  line-height: 1.8;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 58px;
+  margin-top: 59px;
+}
+#main5 .box3 .box3tools {
+  font-size: 20px;
+}
+#main5 .box3 .box3tools .box3tools_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: 65px;
+  margin-left: 640px;
+}
+#main5 .box3 .box3tools h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 13px;
+}
+#main5 .box3 .box3tools ul {
+  display: flex;
+}
+#main5 .box3 .box3tools li {
+  margin-right: 15px;
+}
+#main5 .box3 .box3font {
+  font-size: 20px;
+}
+#main5 .box3 .box3font .box3font_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: 65px;
+  margin-left: 640px;
+}
+#main5 .box3 .box3font h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 13px;
+}
+#main5 .box3 .box3font ul {
+  display: flex;
+}
+#main5 .box3 .box3font li {
+  margin-right: 15px;
+}
+#main5 .box3 .box3color {
+  font-size: 20px;
+}
+#main5 .box3 .box3color .box3color_inner {
+  display: flex;
+  flex-direction: column; /* h4와 ul을 세로로 배치 */
+  align-items: flex-start; /* 내부 요소는 왼쪽 정렬 */
+  margin-top: 65px;
+  margin-left: 640px;
+}
+#main5 .box3 .box3color h4 {
+  font-size: 20px;
+  font-family: "S-CoreDream-5Medium";
+  margin-bottom: 13px;
+}
+#main5 .box3 .box3color ul {
+  display: flex;
+  align-items: center;
+}
+#main5 .box3 .box3color li {
+  align-items: center;
+  display: flex;
+}
+#main5 .box3 .box3color li .box3circle1 {
+  background: #869F30;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+#main5 .box3 .box3color li .box3circle2 {
+  background: #95B232;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 24px;
+}
+#main5 .box3 .box3color li .box3circle3 {
+  background: #B5BF7C;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 24px;
+}
